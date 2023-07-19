@@ -5,91 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social media</title>
     <link rel="shortcut icon" href="juan.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
 </head>
-<style>
-    body{
-        background-color:rgba(215, 207, 207, 0.347);
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .container{
-        background-color:rgba(215, 207, 207, 0.347);
-        max-width: 1550px;
-        height: 89px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.19);
-        
-        
-    }
-    #nome{
-        font-size: 38px;
-        font-weight: bold;
-        margin-left: 40px;
-    }
-    .item{
-        font-size: 14px;
-        display: flex;
-        gap: 35px;
-        
-    }
-    #cont{
-        margin-right: 40px;
-    }
-    .container2{
-        background-image: linear-gradient(to top left, #BC865D, #DAB493, #A63F03);
-        height: 480px;
-        padding-top: 100px;
-        
-        
-        
-    }
-    .corpo{
-        background-color: rgba(255, 255, 255, 0.528);
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding-top: 50px;
-        margin-right: 200px;
-        margin-left: 200px;
-        padding-bottom: 100px;
-        }
-    .conteudo{
-        flex-direction: column;
-        padding-right: 50px;
-    }
-
-
-</style>
 <body>
 
-<div class="container">
-    <div id="nome">Juan Souza</div>
-    <div class="item">
-     <p id="expe">EXPERIÊNCIA</p>
-     <p id="forma">FORMAÇÃO</p>
-     <p id="clie">CLIENTES</p>
-     <p id="espe">ESPECIALIDADES</p>
-     <p id="cont">CONTATO</p>
-    </div>
-</div>
-<main class="container2">
-    <div class="corpo">
-        <img src="juan.jpg" alt="" height="400px" width="400px">
-       <div class="conteudo">
-           <h2>Juan Souza</h2>
-           <h3>Dev Front-End</h3>
-           <p><strong>Telefone:</strong><br>(21) 97322-2536</p>
-           <p><strong>Email:</strong> <br>juan.souza125@gmail.com</p>
-           <p><strong>Endereço:</strong> <br><address>Rua Voluntarios da Patria-Botafogo</address></p>
-           <p><strong>Nascimento:</strong> <br>21/04/2002</p>
-       </div>
+    <header>
+        <h1>JUAN SOUZA</h1>
 
-    </div>)
+        <nav class="superior">
+            <a href="#">EXPERIÊNCIA</a>
+            <a href="#">FORMAÇÃO</a>
+            <a href="#">CLIENTES</a>
+            <a href="#">HABILIDADES</a>
+            <a href="#">ESPECIALIDADES</a>
+            <a href="#">CONTATO</a>
+        </nav>
+
+    </header>
+    <main>
     
+        <div class="container">
+            <img src="juannn.png" alt="Juan">
+            <div class="conteudo">
+                <h2>Juan Souza</h2>
+                <h3>Dev Front-end</h3>
+                <p><strong>Telefone:</strong><br>(21) 97322-2536</p>
+                <p><strong>Email:</strong><br>juan.souza125@gmail.com</p>
+                <p><strong>Endereço:</strong><br><address>Rua Voluntarios da Patria 2545455</address></p>
+                <p><strong>Data de Nascimento:</strong><br>21 de Abril de 2002.</p>
+            </div>
+        </div>
 
-
-</main>
+    </main>
+    <nav class="inferior">
+        <a href="https://www.linkedin.com/in/juan-souza-89b335226/" target="_blank"><img src="linkedin.png" alt="linkedln"
+                width="30px"></a>
+        <a href="https://www.instagram.com/juansci1909/" target="_blank"><img src="insta.png" alt="instagram"
+                width="30px"></a>
+        <a href="https://twitter.com/juan1909reus" target="_blank"><img
+                src="pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="twitter" width="30px"></a>
+        <a href="https://github.com/juansouz789" target="_blank"><img src="github.png" alt="github" width="30px"></a>
+    </nav>
+    <aside>
+        <h2>Sobre mim:</h2>
+        <p>Meu nome é <strong>Juan Souza</strong>, tenho 21 anos e atualmente moro no Rio de Janeiro. Estou cursando Ciência de Dados na Faculdade e por fora estou estudando front-end e Design UX. Nas minhas redes sociais vocês vão encontrar
+        coisas relacionadas a academia, trilhas cachoeiras, futebol, basquete e Billie Eilish.   </p>
+    </aside>
 </body>
 </html>
