@@ -126,7 +126,10 @@ footer a{
     header p{
         font-size: 1.5vh;
     }
+    .imagem{
+        background-attachment:scroll;
+    }
     #imgum{
-        background-position: center top;
+        background-position: center center;
     }
 }
