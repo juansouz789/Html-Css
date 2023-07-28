@@ -49,7 +49,7 @@ a:hover{
 
 section {
     font-family:'kalan',cursive;
-    font-size:7vh;
+    font-size:2.8vw;
     font-weight: 550;
     line-height: 2.3em;
     padding-bottom: 2.5em;
@@ -61,7 +61,7 @@ section {
     padding-left: 0.7em;
 }
 .imagem{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
@@ -71,9 +71,11 @@ section {
 #imgum{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    
 }
 #imagemdois{
     background-image: url(imagens/background002.jpg);
+    
 }
 .imagem p {
     display: inline-block;
@@ -81,6 +83,7 @@ section {
     margin: 1.4em 0em 1.3em 0.7em;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+    font-weight: bolder;
 }
 footer{
     background-color: black;
@@ -122,5 +125,8 @@ footer a{
     }
     header p{
         font-size: 1.5vh;
+    }
+    #imgum{
+        background-position: center center;
     }
 }
