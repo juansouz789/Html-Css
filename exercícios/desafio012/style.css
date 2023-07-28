@@ -1,0 +1,126 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family= Kalam :wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Kalam :wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Passion+One:wght@900&display=swap');
+@font-face {
+    font-family: 'Kalam', cursiva;
+    src: url('https: //fonts.googleapis.com/css2?family= Kalam :wght@300 & display=swap');
+
+    font-family:'Kalam', cursive;
+    src: url('https://fonts.googleapis.com/css2?family= Kalam :wght@300 & display=swap');
+
+    font-family: 'Passion One', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Passion+One:wght@900&display=swap');
+}
+header{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.47em;
+    height: 16em;
+    padding: 2.4em;
+}
+header h1{
+    font-size: 12vh;
+    font-weight: 1500px;
+    
+}
+header p {
+    font-weight:normal;
+    color: rgba(255, 255, 255, 0.592);
+}
+header a {
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section {
+    font-family:'kalan',cursive;
+    font-size:7vh;
+    font-weight: 550;
+    line-height: 2.3em;
+    padding-bottom: 2.5em;
+    padding-top: 1em;
+}
+.normal{
+    max-width: 31.25em;
+    margin-top: 1em;
+    padding-left: 0.7em;
+}
+.imagem{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#imgum{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+#imagemdois{
+    background-image: url(imagens/background002.jpg);
+}
+.imagem p {
+    display: inline-block;
+    padding: 5px;
+    margin: 1.4em 0em 1.3em 0.7em;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.805);
+    text-align: center;
+    height: 6vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: white;
+}
+
+@media (max-width: 922px) {
+    header h1{
+        font-size: 5.5vh;
+    }
+    section{
+        font-size: 2.8vh;
+    }
+    .normal{
+        margin-left: 1em;
+    }
+    header p {
+        font-size: 2.8vh;
+    }
+    header{
+        height: 28vh;
+    }
+    .imagem p{
+        margin: 2.2em;
+    }
+}
+@media (max-width:430px){
+    header h1 {
+        text-align: center;
+    }
+    header p{
+        font-size: 1.5vh;
+    }
+}
