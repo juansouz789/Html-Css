@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: rgb(44, 42, 42);
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(44, 42, 42);
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            background-color:lightgray;
+            padding: 10px;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(2n)/*odd(impar) / ever(par) */{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <Table>
+        <caption>Os três Estados com as maiores populações do Brasil</caption>
+        <thead> 
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 mi</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 mi</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 mi</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>87 mi</strong></td>
+            </tr>
+        </tfoot>
+    </Table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique non, dolores voluptatibus, ipsam doloremque, corporis quaerat nihil tempora error consequatur quos assumenda reprehenderit quo ullam cum? Minus ratione molestias fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel soluta molestiae placeat ab ipsam! Mollitia, numquam, fugit ipsa accusantium possimus illum quae eius impedit eaque laudantium, a velit illo iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos distinctio debitis et aut fugiat natus rem nulla voluptate id, dolorum iusto explicabo quia reiciendis fugit eaque dicta, blanditiis facilis porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iste temporibus sapiente minus? Repudiandae deserunt, accusantium quidem, ab doloribus molestias esse autem, atque eius quos culpa quod. Veritatis, dicta dolores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga libero soluta perferendis quod deleniti saepe veritatis voluptatibus unde commodi harum minus aperiam, reiciendis velit odio nesciunt error praesentium. Praesentium, cum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi repellendus dolorum necessitatibus amet dicta nulla nobis nesciunt odio. Ipsum autem quibusdam culpa obcaecati nesciunt amet pariatur sequi eius esse aut.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam maiores, ratione pariatur molestias natus fugit commodi veritatis cumque quia sint minus quod laudantium delectus quasi blanditiis mollitia maxime quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tenetur rerum nemo ea odit, dicta aut, dolores impedit repellendus cumque ipsam ducimus dignissimos necessitatibus sapiente fuga doloremque? Commodi, soluta repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cum amet a similique, adipisci officia pariatur iste veniam, ducimus quisquam suscipit fugiat velit molestias quasi exercitationem excepturi sapiente impedit corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, accusamus? Dolor eligendi tenetur nihil repellat veniam excepturi quod sunt reiciendis provident illum magnam placeat quos commodi voluptatibus, deleniti ab eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit illo voluptates veritatis libero, aut nisi delectus. Adipisci, totam. Veniam labore officia sit eligendi rerum non officiis quibusdam harum odio ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga commodi saepe quod, recusandae praesentium, earum, quibusdam aspernatur libero eos dolorem quae. Unde, modi labore amet blanditiis quaerat harum autem nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos ex cupiditate odit? Quidem qui quibusdam quas aperiam dolorum reprehenderit repellat, odit sunt facilis eos voluptate! Tempora eius delectus quidem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis maiores facere eaque perspiciatis officia minus, a modi saepe neque dignissimos. Voluptas quidem fuga architecto commodi accusamus? Nostrum repellendus magni consectetur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perspiciatis iusto alias deleniti quia blanditiis doloremque sunt! Eaque aperiam provident temporibus magnam, hic repellat officiis minima eveniet nulla optio ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse fugit tempore sunt deserunt nesciunt necessitatibus nulla et, unde ab nihil. Pariatur blanditiis ipsum ab reprehenderit deserunt voluptatem in quos facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas incidunt tempore facere cum doloremque, doloribus, recusandae minus placeat quis alias odio. Ullam architecto id accusamus doloribus, maiores molestiae velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a voluptates aspernatur error. Eos inventore nostrum, neque, obcaecati modi debitis repellendus ut voluptates laborum corrupti nesciunt expedita itaque vitae ab? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo magni totam hic optio minima cum doloribus molestias itaque ex sunt est recusandae dolorem in consectetur quasi aliquid, ad delectus libero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellat, aperiam, eius officiis eveniet excepturi amet fugit ullam nobis iste, voluptatem itaque ut tempore impedit distinctio veritatis nulla asperiores eos!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus recusandae ad reiciendis odit commodi dolore ipsum incidunt quo esse sint, vero sed perspiciatis dolorum exercitationem ipsa voluptatem architecto consequatur labore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem vitae assumenda repellat, error hic fugit nostrum adipisci odio, doloribus ullam corporis eligendi? Quis ex perspiciatis maiores, necessitatibus aliquam reiciendis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur pariatur doloribus nesciunt repellat temporibus magni omnis error, explicabo deserunt expedita iusto illo accusamus alias perspiciatis nemo dolorem sapiente, sequi atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio in officiis ex consequatur est quos eveniet ipsa non? Eius dolores ratione commodi laboriosam repellendus aut consectetur labore impedit! Harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores unde, neque veritatis nemo qui aperiam rerum a, provident quasi praesentium dolor aliquid laudantium deserunt saepe velit hic, recusandae ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus natus, deserunt dicta ullam, laboriosam quasi accusantium aut ea cum fugiat tempore libero doloribus? Itaque neque eligendi ea. Recusandae, corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ut magni ex! Optio molestiae fugiat rem ex magnam nam perferendis nihil reprehenderit hic laborum consequatur qui, alias dolores. Earum, labore?</p>
+</body>
+</html>
