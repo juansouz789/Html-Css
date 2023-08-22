@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*Todas as demais midias*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.819);
+    width: 90vw;
+    margin: auto;
+    border-radius: 0.4em;
+    padding: 0.4em;
+    margin-top: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(205, 107, 107, 0.77);
+    font-size: 1em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#tablet,
+#print,
+#pc,
+#tv {
+    display: none;
+}
