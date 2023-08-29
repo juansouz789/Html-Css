@@ -34,9 +34,12 @@ html,body {
     flex-direction: column;
     width: 250px;
     height: 615px;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     border-radius: 20px;
     overflow: hidden;
+    transform: translate(-50%, -50%);
     transition: width 0.1s, height 0.1s;
     transition-timing-function: ease;
 }
