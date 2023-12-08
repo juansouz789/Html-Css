@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color: rgb(80, 144, 35);
+        }
+        footer{
+            background-color: #f0a6ea;
+        }
+        section{
+            background-color: #91b14d;
+        }
+        nav{
+            background-color: #99d8ff;
+        }
+        article{
+            background-color: aquamarine;
+        }
+        .grid-wrapper >*{
+            min-height: 100px;
+            border-radius: 4px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grid-wrapper{
+            display: grid;
+            grid-template-rows: repeat(5, auto);
+            grid-template-columns: 240px repeat(3, 1fr);
+            gap: 1.2em;
+        }
+        header{
+            grid-column: 1 / -1;
+        }
+        nav{
+            grid-row: 2 / -2;
+        }
+        section{
+            grid-column: 2 / -1;
+        }
+        footer{
+            grid-column: 1 / -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-wrapper">
+        <header> header</header>
+        <nav>nav</nav>
+        <section>section</section>
+        <article>article</article>
+        <article>article</article>
+        <article>article</article>
+        <article>article</article>
+        <article>article</article>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
